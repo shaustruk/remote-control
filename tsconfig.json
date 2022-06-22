@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+           "moduleResolution": "Node",
+      /* ... your props ... */
+  },
+  "ts-node": {
+      "esm": true
+  },
+  "exclude": [
+    "node_modules"
+]
+}
