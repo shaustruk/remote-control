@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
            "moduleResolution": "Node",
-      /* ... your props ... */
+            "noImplicitAny": true,
+            "noEmitOnError": true,
+            "removeComments": false,
+            "sourceMap": true,
+            "target": "es5",
+            "outDir": "dist",
+                /* ... your props ... */
   },
   "ts-node": {
       "esm": true
   },
   "exclude": [
     "node_modules"
-]
+],
+"moduleResolution":"allowJS"
 }
