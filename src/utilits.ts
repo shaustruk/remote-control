@@ -1,4 +1,8 @@
-import { WebSocketServer, WebSocket } from 'ws';
+import {
+  WebSocketServer,
+  WebSocket,
+  createWebSocketStream,
+} from 'ws';
 import * as Jimp from 'jimp';
 import * as robot from 'robotjs';
 import * as fs from 'fs';
@@ -13,4 +17,5 @@ export {
   fs,
   path,
   http,
+  createWebSocketStream,
 };
