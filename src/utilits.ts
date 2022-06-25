@@ -8,6 +8,7 @@ import * as robot from 'robotjs';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as http from 'http';
+import * as process from 'process';
 
 export {
   WebSocket,
@@ -18,4 +19,5 @@ export {
   path,
   http,
   createWebSocketStream,
+  process,
 };

@@ -13,4 +13,5 @@ export const drawSquare = (witdh: number) => {
   x -= witdh;
   robot.moveMouseSmooth(x, y);
   robot.mouseToggle('up');
+  console.log(`draw_square, ${witdh}`);
 };

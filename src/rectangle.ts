@@ -16,4 +16,7 @@ export const drawRectangle = (
   x -= witdh;
   robot.moveMouseSmooth(x, y);
   robot.mouseToggle('up');
+  console.log(
+    `draw_rectangle, ${witdh}, ${length}`
+  );
 };
